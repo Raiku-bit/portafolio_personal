@@ -1,6 +1,7 @@
 @import "tailwindcss";
 body{
   background-color: #a0ced9;
+  cursor: url('./assets/Normal\ Select.cur'), auto;
 }
 
 @keyframes marquee {
@@ -15,4 +16,8 @@ body{
 .animate-marquee {
   display: inline-block;
   animation: marquee 6s linear infinite;
+}
+
+.nyacatgif {
+  width: 400px;
 }

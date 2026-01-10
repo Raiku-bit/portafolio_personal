@@ -4,7 +4,6 @@ import Perfil from './components/perfil'
 import Proyects from './components/proyects'
 import Tecnologies from './components/tecnologies'
 
-
 function App() {
 
   return (
@@ -12,17 +11,17 @@ function App() {
       <Header />
       <div className="flex flex-col md:flex-row w-full">
         <div className="md:basis-1/3 w-full">
-          <Perfil/>
+          <Perfil />
         </div>
         <div className="md:basis-1/3 w-full">
-          <Proyects/>
+          <Proyects />
         </div>
         <div className="md:basis-1/3 w-full">
-          <Tecnologies/>
+          <Tecnologies />
         </div>
       </div>
       <div>
-
+        <img src="./src/assets/nyan-cat.gif" alt="nyacatgif" className='nyacatgif' />
       </div>
     </>
   )
