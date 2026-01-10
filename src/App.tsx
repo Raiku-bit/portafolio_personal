@@ -21,7 +21,7 @@ function App() {
         </div>
       </div>
       <div>
-        <img src="./src/assets/nyan-cat.gif" alt="nyacatgif" className='nyacatgif' />
+        <img src="/assets/nyan-cat.gif" alt="nyacatgif" className='nyacatgif' />
       </div>
     </>
   )
