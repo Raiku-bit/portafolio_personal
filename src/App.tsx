@@ -3,6 +3,7 @@ import Header from './components/header'
 import Perfil from './components/perfil'
 import Proyects from './components/proyects'
 import Tecnologies from './components/tecnologies'
+import gifcat from './assets/nyan-cat.gif' 
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
         </div>
       </div>
       <div>
-        <img src="/assets/nyan-cat.gif" alt="nyacatgif" className='nyacatgif' />
+        <img src={gifcat} alt="nyacatgif" className='nyacatgif' />
       </div>
     </>
   )
