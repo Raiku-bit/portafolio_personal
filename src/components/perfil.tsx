@@ -42,17 +42,20 @@ export default function Perfil() {
                     {profile.area && (
                         <div className="text-gray-700 text-sm italic">{profile.area}</div>
                     )}
-                    {profile.github && (
-                        <a href={profile.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                            <FaGithub size={30}/>
-                        </a>
-                    )}
-                    {profile.linkedin && (
-                        <a href={profile.linkedin} target="_black" rel="noopener noreferrer" aria-label="Linkedin">
-                            <FaLinkedin size={30}/>
-                        </a>
-                    )}
+                    <div className="p-7 flex gap-7">
+                        {profile.github && (
+                            <a href={profile.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <FaGithub size={30} />
+                            </a>
+                        )}
+                        {profile.linkedin && (
+                            <a href={profile.linkedin} target="_black" rel="noopener noreferrer" aria-label="Linkedin">
+                                <FaLinkedin size={30} />
+                            </a>
+                        )}
+                    </div>
                 </div>
+
             </div>
         </div>
     );

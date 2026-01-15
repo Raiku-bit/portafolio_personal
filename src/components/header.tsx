@@ -9,7 +9,7 @@ export default function Header() {
 
     const music = {
         artist: "Bad Bunny",
-        name: "Moscow Mule",
+        name: "Turista",
     }
 
     return( 
